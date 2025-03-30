@@ -1,0 +1,111 @@
+@media  screen and (max-width: 720px){
+    .navbar{
+        width: 95%;
+    }
+    .nav-main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-item {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .slider {
+       height: auto;
+    }
+    .top-header-btn {
+        width: 83%;
+    }
+    .top-details{
+        text-align: center;
+    }
+    .top-details h2 {
+        font-size: 30px;
+       
+    }
+    .about-info ul li{
+        align-items: start;
+    }
+    .about-info ul li img{
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+    #experience{
+        padding: 50px 0;
+    }
+    .book-btn{
+        text-align: center;
+    }
+    .navbar-toggler-icon i {
+        font-size: 24px;
+        color: #000;
+        margin-right: -59px;
+    }
+    .navbar-toggler-icon i {
+        font-size: 24px;
+        color: #000;
+    }
+    .top-about-btn {
+        width: 40%;
+    }
+    .about-left {
+        padding-right: 0px;
+    }
+    #about {
+        padding: 50px 0;
+    }
+    .header-btn-top{
+        display: none;
+    }
+    .top-details{
+        margin-top: 50px;
+    }
+    .head-right-photo img {
+        bottom: 7px;
+        left: 25px;
+        position: relative;
+    }
+    .about-info{
+        margin-top: 50px;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .mar-top{
+        margin-top: 30px;
+    }
+    .service-title h2 {
+        font-size: 30px;
+    }
+
+    #success {
+        padding-top: 0px;
+    }
+    .success-main h2 {
+        font-size: 32px;
+    }
+    .success-main {
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .success-box-all{
+        display: flex;
+        flex-direction: column;
+    }
+    .success-box {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .success-box img {
+        width: 45px;
+    }
+    .guidance{
+        display: none;
+    }
+}
+@media  screen and (max-width:920px){
+    .top-header-btn {
+        width: 88%;
+    }
+}

@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 38px;
+    font-family: "Koh Santepheap", serif;
+}
+li{
+     list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#head{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slider{
+    width: 100%;
+    padding-top: 30px;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    color: #FFF;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+	background:#FFFFFF;
+    z-index: 99999;
+    border-radius: 50px;
+}
+.nav-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-brand img{
+    width: 200px;
+}
+/* .active a{
+    font-family: 'helvetica-neue-blod';
+    text-decoration: none;
+	color: #1D8AD8!important;
+    font-weight: 900;
+} */
+.nav-item{
+	padding-left:30px!important;
+}
+.nav-item a{
+	cursor: pointer;
+}
+.nav-item a{
+    text-decoration: none;
+	color: #000000;
+    font-size: 16px;
+    font-family: "Koh Santepheap", serif;
+}
+
+.navbar-toggler-icon{
+	color: #1D8AD8;
+}
+.nav-bton a{
+    font-size: 15px;
+    background: #000;
+    color: #FFF;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.mar-btm{
+    margin-bottom: 0;
+}
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+.header-btn-top{
+    display:flex;
+    align-items: center;
+}
+.top-ber{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container {
+    max-width: 1453px!important;
+    width: 95%!important;
+    margin: 0 auto!important;
+}
+
+.top-details h2 {
+    font-size:45px;
+    font-family: "Koh Santepheap", serif;
+    margin-bottom: 10px;
+}
+
+.top-details p {
+    line-height: 25px;
+}
+.top-header-btn{
+    margin-bottom: 20px;
+}
+.header-btn a {
+    background:#F8B04A;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Koh Santepheap", serif;
+    font-size: 16px;
+    padding: 14px 30px;
+    border-radius: 50px;
+}
+
+/* .buton a:hover {
+    text-decoration: none;
+    background: #ffffff;
+    color: #000;
+    border: 1px #000 solid;
+    transition: .4s;
+} */
+
+.head-right-photo img{
+    bottom: 0;
+    position: relative;
+}
+.book-btn{
+    margin-top: 50px;
+}
+
+#about{
+    width: 100%;
+    padding: 100px 0;
+}
+.about-main{
+    display: flex;
+    align-items: center;
+}
+.about-img{
+    width: 95%;
+}
+.about-btn a {
+    background: rgba(191, 208, 202, 1);
+    text-decoration: none;
+    color: rgba(22, 88, 82, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 30px;
+    border-radius: 50px;
+}
+.about-btn a i{
+    font-size: 6px;
+    color: rgba(22, 88, 82, 1);
+}
+.about-info h2{
+    margin: 30px 0;
+}
+.about-info ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.about-info ul li img{
+    width: 12px;
+    margin-right: 5px;
+}
+#services{
+    width: 100%;
+    padding: 100px 0;
+    background: rgba(242, 255, 250, 1);
+}
+.service-title{
+    text-align: center;
+   
+}
+.services-main{
+    margin-top: 50px;
+}
+.service-title h2{
+    margin-top: 30px;
+}
+.services-box {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 43px 4px rgba(0, 0, 0, 0.05);
+    padding: 30px 20px;
+    height: 100%;
+    border-radius: 5px;
+}
+.services-box img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.services-box h5{
+    font-size: 20px;
+    font-family: "Koh Santepheap", serif;
+}
+
+
+#success{
+    width: 100%;
+    background: url(../images/success-bg.png) center center no-repeat fixed;
+    padding-top: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.success-main{
+    width: 70%;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.91);
+    padding: 100px ;
+}
+.success-main h2{
+    text-align: left;
+}
+
+.success-box-all{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.success-box{
+    margin-right: 70px;
+}
+.success-box img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#slider-logo{
+    width: 100%;
+    background: rgba(38, 92, 87, 1);
+
+}
+.slider-logo-all{
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-container{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 9));
+    }
+}
+.slide-container2{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll-2 20s linear infinite;
+}
+.slide-image {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+}
+img{
+    width: 100%;
+    transition: 1s;
+}
+img:hover{
+    transform: translateZ(20px);
+}
+#experience{
+    width: 100%;
+    padding: 100px 0;
+    background: rgba(242, 255, 250, 1);
+}
+.experience-main{
+    margin: 50px 0;
+}
+.experience-box ul li{
+    margin-top: 10px;
+}
+.dot{
+    width: 100px ;
+    height: 2px;
+    background:rgba(76, 118, 116, 1) ;
+}
+
+
+.guidance {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgba(152, 188, 174, 1);
+    padding: 70px 50px ;
+    margin-top: 150px;
+    border-radius: 10px;
+   
+}
+
+.guidance-photo {
+    position: absolute;
+    bottom: 0;
+    width: 400px; /* Adjust size as needed */
+    z-index: 1; /* Ensures image is visible above background */
+}
+
+.guidance-photo img {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.guidance-img{
+    width: 50%;
+}
+.guidance-text{
+    width: 50%;
+}
+.guidance-text p{
+    margin-bottom: 30px;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px ;
+    background: rgba(38, 92, 87, 1);
+}
+#footer img{
+    width: 30px;
+    margin-bottom: 10px;
+}
+#footer p{
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+
+.navbar {
+    padding: 10px 0;
+}
+.nav-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+.navbar-toggler-icon i {
+    font-size: 24px;
+}
+
+
+
+
+
+
