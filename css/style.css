@@ -329,8 +329,21 @@ img:hover{
 .guidance-text{
     width: 50%;
 }
+
 .guidance-text p{
+    font-size: 30px;
+    font-weight: 600;
     margin-bottom: 30px;
+}
+.cta{
+    color: #fff;
+    padding: 100px 0;
+    background: rgba(38, 92, 87, 1);
+}
+.cta p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
 }
 #footer{
     width: 100%;
